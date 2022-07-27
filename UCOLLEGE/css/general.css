@@ -1,0 +1,374 @@
+/* Estilos de mi página generales*/
+/* Eliminando algunas propiedades de toda mi pagina*/
+.menu-principal{
+    display: flex;
+    flex-direction: row;
+   
+    justify-content: space-between;
+    height: 55px;
+    background-color: white;
+    
+}
+
+
+.left-section
+{
+    
+    
+    display: flex;
+    align-items: center;
+}
+
+.hamburguer-menu{
+    height: 24px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.logo{
+   
+    height: 48px;
+}
+
+.middle-section{
+    display: flex;
+    flex: 1;
+    margin-left: 70px;
+    margin-right:35px ;
+    max-width: 500px; /*el ancho puede ser hasta 500 px*/
+    align-items: center;
+
+}
+.search-bar{
+    flex: 1;
+    height: 36px;
+    
+    padding-left: 10px; /*para poner mi placeholder con padding */
+    font-size: 16px;
+    border-width: 1px;
+    border-style: solid ;
+    border-color: rgb(192, 192, 192);
+    border-radius: 2px;
+    width: 0;
+    box-shadow: inset 1px 2px 3px  rgb(0, 0, 0, 0.05); /*para poner shadow por dentro */
+}
+
+.search-bar::placeholder{   /*para poner mi placeholder*/
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+.search-button{
+    height: 36px;
+    width: 66px;
+    background-color: rgb(240, 240, 240);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(192, 192, 192);
+    margin-left: -1px; /*para qeu mi borde left se una al right de mi search*/
+    margin-right: 10px;
+    
+}
+.voice-search-button{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    border:none;
+    background-color: rgb(245, 245, 245);
+}
+.search-icon{
+    height: 24px;
+    margin-top:4px;
+}
+.voice-search-icon{
+    height: 25px;
+    margin-top:4px;
+    
+}
+
+.right-section{
+    
+    width:700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 40px;
+    flex-shrink: 0;
+    
+}
+
+.menu-options{
+    display: flex;
+    flex:1;
+
+}
+.menu-list{
+    display: flex;
+    padding-left: 10px;
+    flex:1;
+}
+.current-user-picture {
+    height: 32px;
+    border-radius: 16px;
+    
+
+  }
+*{
+    text-decoration: none; /* Para quitar los subrayados*/
+    list-style: none;  /* Para quitar los puntitos*/
+    box-sizing: border-box; /*para que no se aumente mi ancho y alto de mis elementos*/
+}
+
+body{
+    margin: 0; /* Para quitar los margenes de toda mi pagina */
+}
+
+.menu-list{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #1c68e6;
+}
+.banner{
+   
+  width: 100%;
+
+}
+p {
+    font-family: Roboto, Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+
+ 
+.banner-footer{
+   
+   width: 120px;
+
+}
+h1{
+    color: #1c68e6;
+    font-family: 'Trispace', sans-serif;
+    line-height: 1.6em;
+}
+h3{
+    color: #1c68e6;
+    font-family: 'Trispace', sans-serif;
+}
+footer{
+    background-color: beige;
+}
+.slide1{
+  
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: #edf5ff;
+   height: 400px;
+   padding-top: 58px;
+    padding-bottom: 20px;
+}
+
+.button-contactar{
+    background-color: rgb(29, 123, 246);
+       color: white;
+       border-radius:18px;
+       height: 36px;
+       border: none;
+       width:90px;
+       margin-left:8px;
+       margin-top: 10px;
+       font-weight: bold;
+       font-size: 15px;
+       cursor: pointer;
+}
+
+.button-contactar:hover{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.button-more{
+    background-color: rgb(200, 0, 0);
+        color: white;
+        padding-top: 10px;
+        padding-bottom:10px;
+        padding-left: 16px;
+        padding-right: 16px;
+        cursor:pointer;
+        border:none;
+        border-radius: 2px;
+        margin-right: 8px;
+        margin-top: 10px;
+        transition: opacity 0.5s;
+        vertical-align: top;
+}
+
+.button-more:hover{
+    opacity:0.7;
+}
+.informacion-left{
+    width: 300px;
+   
+}
+
+.information-right{
+   
+    width: 300px;
+}
+.slide2{
+    display: flex;
+    background-color:#faede6 ;
+    align-items: center;
+   justify-content: center;
+}
+
+.contenedor-footer{
+   
+    display: flex;
+    align-items: center;
+   justify-content: center;
+}
+
+.left-footer{
+    width: 300px;
+
+}
+.right-footer{
+    width: 300px;
+}
+
+.descripcion-contenedor-precio p {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+#pricing{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 50px;;
+    background-color:  #edf5ff;;
+    height: 400px;
+}
+
+.tabla1{
+    background-color: white;
+    padding: 30px;
+    width: 200px;
+}
+
+.tabla3{
+    background-color: white;
+    padding: 30px;
+    width: 200px;
+
+    
+    
+}
+.tabla2
+{
+    box-shadow: 1px 1px 12px   #ccc;
+    background-color: white;
+    position: relative;
+    width: 200px;
+    padding: 30px;
+   
+    
+}
+
+.precio{
+    position: relative;
+}
+.soles{
+    position:absolute;
+    left:-10px;
+}
+.numero{
+    font-size: 50px;
+}
+.tiempo{
+    font-size: 13px;
+}
+.caracteristicas{
+    font-size: 13px;
+}
+.boton-reservar{
+    background-color: violet;
+    color: #fff;
+    padding: 8px 22px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+
+#tarjetas{
+    display: flex;
+    justify-content: center;
+    background-color: #efefef;
+}
+
+.tarjeta img {
+    width: 100%;
+}
+.tarjeta {
+    width: 20%;
+    margin: 30px 30px 30px 30px;
+    background-color: white;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 1px 1px 1px 0px #00000030;
+}
+h2{
+    font-size: 17px;
+    color: #aaa;
+}
+.profession{
+    color: #ccc;
+}
+.parrafo{
+    line-height: 30px;
+    color:#808080
+}
+
+.blog-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 40px;
+    border-color: red;
+
+}
+
+
+
+.thumbnail{
+    width: 100%;
+}
+.thumbnail-blog
+{
+   
+    margin-bottom: 12px;
+
+}
+.blog-info-grid {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+  }
+
+
+.title-blog {
+    margin-top: 0;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 12px;
+  }
+  .blog-picture {
+    width: 40px;
+    border-radius: 50px;
+  }
+
+  .author-blog,
+      .view-blog {
+        font-size: 12px;
+        color: rgb(96, 96, 96);
+      }
